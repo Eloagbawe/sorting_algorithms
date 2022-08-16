@@ -43,3 +43,12 @@ solution to sorting_algorithms exercises
 		in the average case
 		in the worst case
 
+4. Write a function that sorts an array of integers in ascending order using the [Shell sort](https://en.wikipedia.org/wiki/Shellsort) algorithm, using the Knuth sequence
+
+	Prototype: void shell_sort(int *array, size_t size);
+	You must use the following sequence of intervals (a.k.a the Knuth sequence):
+	n+1 = n * 3 + 1
+	1, 4, 13, 40, 121, ...
+	You’re expected to print the array each time you decrease the interval
+
+	No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap
