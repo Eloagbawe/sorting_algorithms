@@ -52,3 +52,16 @@ solution to sorting_algorithms exercises
 	You’re expected to print the array each time you decrease the interval
 
 	No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap
+
+5. Write a function that sorts a doubly linked list of integers in ascending order using the [Cocktail shaker](https://en.wikipedia.org/wiki/Cocktail_shaker_sort) sort algorithm
+
+	Prototype: void cocktail_sort_list(listint_t **list);
+	You are not allowed to modify the integer n of a node. You have to swap the nodes themselves.
+	You’re expected to print the list after each time you swap two elements (See example below)
+	Write in the file 101-O, the big O notations of the time complexity of the Cocktail shaker sort algorithm, with 1 notation per line:
+
+		in the best case
+		in the average case
+		in the worst case
+
+
